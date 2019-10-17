@@ -1,7 +1,22 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 export default function Main() {
-  return <h1>Main Page</h1>;
+  return (
+    <Container>
+      <section>
+        <h1>Author</h1>
+        <ul>
+          <li>James Clarck</li>
+          <li>James Clarck</li>
+          <li>James Clarck</li>
+          <li>James Clarck</li>
+          <li>James Clarck</li>
+          <li>James Clarck</li>
+          <li>James Clarck</li>
+        </ul>
+      </section>
+    </Container>
+  );
 }

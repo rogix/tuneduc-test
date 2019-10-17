@@ -11,7 +11,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: red;
+    background: #fff;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -27,5 +27,9 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
   }
 `;
