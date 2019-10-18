@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/tuneduc-test/static/js/main.04882037.chunk.js",
-    "main.js.map": "/tuneduc-test/static/js/main.04882037.chunk.js.map",
+    "main.js": "/tuneduc-test/static/js/main.098de5b0.chunk.js",
+    "main.js.map": "/tuneduc-test/static/js/main.098de5b0.chunk.js.map",
     "runtime-main.js": "/tuneduc-test/static/js/runtime-main.deb39094.js",
     "runtime-main.js.map": "/tuneduc-test/static/js/runtime-main.deb39094.js.map",
     "static/js/2.11f95c67.chunk.js": "/tuneduc-test/static/js/2.11f95c67.chunk.js",
     "static/js/2.11f95c67.chunk.js.map": "/tuneduc-test/static/js/2.11f95c67.chunk.js.map",
     "index.html": "/tuneduc-test/index.html",
-    "precache-manifest.a3f5895156621cb05313d57f2aa89a4d.js": "/tuneduc-test/precache-manifest.a3f5895156621cb05313d57f2aa89a4d.js",
+    "precache-manifest.0211f256ef974e4d1e0cae4aa60357b2.js": "/tuneduc-test/precache-manifest.0211f256ef974e4d1e0cae4aa60357b2.js",
     "service-worker.js": "/tuneduc-test/service-worker.js",
     "static/media/logo.svg": "/tuneduc-test/static/media/logo.4f256c48.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.deb39094.js",
     "static/js/2.11f95c67.chunk.js",
-    "static/js/main.04882037.chunk.js"
+    "static/js/main.098de5b0.chunk.js"
   ]
 }
