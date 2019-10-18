@@ -22,21 +22,48 @@ export const Container = styled.div`
 
     li {
       position: relative;
-      background: #dadbde;
+      z-index: 0;
+
+      background: #1919a6;
+      color: #fff;
+
       margin: 10px;
       width: 300px;
       height: 200px;
       padding: 20px;
+
+      border-radius: 5px;
+
+      text-transform: capitalize;
       font: 24px Roboto;
-      z-index: 0;
 
       span {
         position: absolute;
-        bottom: 5px;
+        bottom: 15px;
+        left: 20px;
+        right: 20px;
+
         display: flex;
-        /* align-items: center; */
+        justify-content: space-between;
+        align-items: center;
+
+        border-top: 1px solid #fff;
+        padding-top: 5px;
         margin-top: 20px;
         font-size: 12px;
+
+        button {
+          border: 0;
+          border-radius: 5px;
+
+          padding: 5px 12px;
+
+          background: #0c0059;
+          color: #fff;
+
+          font-family: Roboto;
+          font-weight: 700;
+        }
       }
     }
   }

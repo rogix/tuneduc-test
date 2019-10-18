@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import api from '../../services/api';
 
+import avatar from '../../assets/images/avatar-woman.png';
+
 import { Container, List } from './styles';
 
 export default function Users() {
@@ -25,8 +27,13 @@ export default function Users() {
         <List>
           {users.map(user => (
             <li key={user.id}>
-              <span>{user.name}</span>
-              <Link to={`/posts/${user.id}`}>View Posts</Link>
+              <img src={avatar} alt="avatar" />
+              <span>
+                <span>{user.name}</span>
+                <Link to={`/posts/${user.id}`}>
+                  <button type="button">View Posts</button>
+                </Link>
+              </span>
             </li>
           ))}
         </List>

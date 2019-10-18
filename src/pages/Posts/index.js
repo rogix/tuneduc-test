@@ -27,7 +27,10 @@ export default function Posts({ match }) {
         {posts.map(post => (
           <li key={post.id}>
             {post.title}
-            <span>{post.id}</span>
+            <span>
+              Post Id: {post.id}
+              <button type="button">Read</button>
+            </span>
           </li>
         ))}
       </ul>
