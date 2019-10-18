@@ -6,13 +6,13 @@ import api from '../../services/api';
 import { Container, List } from './styles';
 
 export default function Main() {
-  const [data, setData] = useState([]);
+  const [users, setUsers] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       const result = await api.get('/users');
 
-      setData(result.data);
+      setUsers(result.data);
     };
 
     fetchData();
@@ -23,7 +23,7 @@ export default function Main() {
       <section>
         <h1>Users</h1>
         <List>
-          {data.map(user => (
+          {users.map(user => (
             <li key={user.id}>
               <span>{user.name}</span>
               <Link to={`/user/${user.id}`}>View Posts</Link>

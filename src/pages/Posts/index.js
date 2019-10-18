@@ -6,7 +6,7 @@ import api from '../../services/api';
 import { Container } from './styles';
 
 export default function User({ match }) {
-  const [data, setData] = useState([]);
+  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     const { userId } = match.params;
@@ -14,7 +14,7 @@ export default function User({ match }) {
     const fetchData = async () => {
       const result = await api.get(`/posts?userId=${userId}`);
 
-      setData(result.data);
+      setPosts(result.data);
     };
 
     fetchData();
@@ -23,7 +23,7 @@ export default function User({ match }) {
   return (
     <Container>
       <ul>
-        {data.map(post => (
+        {posts.map(post => (
           <li key={post.id}>{post.title}</li>
         ))}
       </ul>
