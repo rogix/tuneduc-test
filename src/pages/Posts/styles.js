@@ -18,6 +18,7 @@ export const Container = styled.div`
   ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     li {
       position: relative;
