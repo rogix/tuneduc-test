@@ -29,12 +29,21 @@ export const List = styled.ul`
     font-weight: 700;
     font-size: 20px;
 
+    span {
+      display: flex;
+      align-items: center;
+    }
+
     a {
       color: #fff;
       padding: 8px 15px;
       background: rgba(45, 45, 178, 0.53);
       text-decoration: none;
       border-radius: 5px;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 12px;
     }
   }
 `;

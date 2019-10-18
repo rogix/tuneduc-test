@@ -18,7 +18,6 @@ export const Container = styled.div`
   ul {
     display: flex;
     flex-wrap: wrap;
-    /* margin-top: 70px; */
 
     li {
       position: relative;
@@ -34,6 +33,7 @@ export const Container = styled.div`
         position: absolute;
         bottom: 5px;
         display: flex;
+        /* align-items: center; */
         margin-top: 20px;
         font-size: 12px;
       }
