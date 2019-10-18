@@ -6,8 +6,12 @@ export const Container = styled.section`
   h1 {
     padding: 20px 0;
   }
+`;
 
-  ul > li {
+export const List = styled.ul`
+  li {
+    display: flex;
+    justify-content: space-between;
     background: gray;
     padding: 20px 8px;
     margin: 8px 0;
