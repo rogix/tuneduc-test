@@ -5,6 +5,7 @@ import GlobalStyle from './styles/global';
 import Routes from './routes';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Routes />
       <GlobalStyle />
+      <Footer />
     </Router>
   );
 }

@@ -1,14 +1,14 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Main from './pages/Main';
-import User from './pages/User';
+import Users from './pages/Users';
+import Posts from './pages/Posts';
 
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Main} />
-      <Route path="/user/:userId" component={User} />
+      <Route path="/" exact component={Users} />
+      <Route path="/user/:userId" component={Posts} />
     </Switch>
   );
 }
