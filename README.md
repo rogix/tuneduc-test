@@ -1,8 +1,8 @@
 ## Overview
 
-To create project I used.
+To create this project I used.
 
-- Create React App to starte the project
+- Create React App to bootstrap the project
 - Styled Component to create the styles
 - Axios to fetch data
 - React Router Dom to create the routes
@@ -10,6 +10,10 @@ To create project I used.
 ## To start the project:
 
 In the project directory, you can run:
+
+### `yarn install`
+
+This command will install the necessary packages
 
 ### `yarn start`
 
