@@ -10,4 +10,5 @@ export const Container = styled.header`
   top: 0;
   height: 70px;
   background: #2d2db2;
+  z-index: 999;
 `;

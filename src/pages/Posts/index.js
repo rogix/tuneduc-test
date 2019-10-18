@@ -5,7 +5,7 @@ import api from '../../services/api';
 
 import { Container } from './styles';
 
-export default function User({ match }) {
+export default function Posts({ match }) {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -22,16 +22,20 @@ export default function User({ match }) {
 
   return (
     <Container>
+      <h1>Posts</h1>
       <ul>
         {posts.map(post => (
-          <li key={post.id}>{post.title}</li>
+          <li key={post.id}>
+            {post.title}
+            <span>{post.id}</span>
+          </li>
         ))}
       </ul>
     </Container>
   );
 }
 
-User.propTypes = {
+Posts.propTypes = {
   match: PropTypes.shape({
     params: PropTypes.shape({
       userId: PropTypes.string,

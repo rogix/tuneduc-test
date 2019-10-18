@@ -5,7 +5,7 @@ import api from '../../services/api';
 
 import { Container, List } from './styles';
 
-export default function Main() {
+export default function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function Main() {
           {users.map(user => (
             <li key={user.id}>
               <span>{user.name}</span>
-              <Link to={`/user/${user.id}`}>View Posts</Link>
+              <Link to={`/posts/${user.id}`}>View Posts</Link>
             </li>
           ))}
         </List>
