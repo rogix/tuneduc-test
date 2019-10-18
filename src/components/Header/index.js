@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashRouter, Link } from 'react-router-dom';
 
 import { Container } from './styles';
 
@@ -9,9 +9,11 @@ export default function Header() {
   return (
     <Container>
       <header>
-        <Link to="/">
-          <img src={logo} alt="logo" />
-        </Link>
+        <HashRouter>
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
+        </HashRouter>
       </header>
     </Container>
   );
