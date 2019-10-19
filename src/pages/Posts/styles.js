@@ -66,5 +66,10 @@ export const Container = styled.div`
         }
       }
     }
+    @media screen and (max-width: 680px) {
+      li {
+        width: 500px;
+      }
+    }
   }
 `;
