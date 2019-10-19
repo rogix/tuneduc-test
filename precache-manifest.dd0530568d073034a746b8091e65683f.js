@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1e2f3ccbb99f382fdb1422ab9267e95",
+    "revision": "ef0d9b218552384325ca6e2527a587dd",
     "url": "/tuneduc-test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tuneduc-test/static/js/2.fde9c273.chunk.js"
   },
   {
-    "revision": "502f20732d34399224a4",
-    "url": "/tuneduc-test/static/js/main.99e8863c.chunk.js"
+    "revision": "282e7102e869cc6a045f",
+    "url": "/tuneduc-test/static/js/main.09d07da1.chunk.js"
   },
   {
     "revision": "e7f9df95050ebf00e986",

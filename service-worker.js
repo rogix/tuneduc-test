@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tuneduc-test/precache-manifest.0fed242d26964d43a7b1b9b6eaeadacb.js"
+  "/tuneduc-test/precache-manifest.dd0530568d073034a746b8091e65683f.js"
 );
 
 self.addEventListener('message', (event) => {
