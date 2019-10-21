@@ -16,9 +16,9 @@ export const Container = styled.div`
   }
 
   ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
 
     li {
       position: relative;
@@ -27,8 +27,6 @@ export const Container = styled.div`
       background: #1919a6;
       color: #fff;
 
-      margin: 10px;
-      width: 300px;
       height: 200px;
       padding: 20px;
 
@@ -64,11 +62,6 @@ export const Container = styled.div`
           font-family: Roboto;
           font-weight: 700;
         }
-      }
-    }
-    @media screen and (max-width: 680px) {
-      li {
-        width: 500px;
       }
     }
   }
