@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/tuneduc-test/static/js/main.09d07da1.chunk.js",
-    "main.js.map": "/tuneduc-test/static/js/main.09d07da1.chunk.js.map",
+    "main.js": "/tuneduc-test/static/js/main.2772f6f4.chunk.js",
+    "main.js.map": "/tuneduc-test/static/js/main.2772f6f4.chunk.js.map",
     "runtime-main.js": "/tuneduc-test/static/js/runtime-main.deb39094.js",
     "runtime-main.js.map": "/tuneduc-test/static/js/runtime-main.deb39094.js.map",
     "static/js/2.fde9c273.chunk.js": "/tuneduc-test/static/js/2.fde9c273.chunk.js",
     "static/js/2.fde9c273.chunk.js.map": "/tuneduc-test/static/js/2.fde9c273.chunk.js.map",
     "index.html": "/tuneduc-test/index.html",
-    "precache-manifest.dd0530568d073034a746b8091e65683f.js": "/tuneduc-test/precache-manifest.dd0530568d073034a746b8091e65683f.js",
+    "precache-manifest.a5fc93b3dcd4800ae85df6ffdafda3f5.js": "/tuneduc-test/precache-manifest.a5fc93b3dcd4800ae85df6ffdafda3f5.js",
     "service-worker.js": "/tuneduc-test/service-worker.js",
     "static/media/avatar-woman.png": "/tuneduc-test/static/media/avatar-woman.04d7224b.png",
     "static/media/logo.svg": "/tuneduc-test/static/media/logo.4f256c48.svg"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.deb39094.js",
     "static/js/2.fde9c273.chunk.js",
-    "static/js/main.09d07da1.chunk.js"
+    "static/js/main.2772f6f4.chunk.js"
   ]
 }
