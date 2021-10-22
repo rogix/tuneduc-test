@@ -25,7 +25,7 @@ export default function Users() {
       <section>
         <h1>Users</h1>
         <List>
-          {users.map(user => (
+          {users.map((user) => (
             <li key={user.id}>
               <img src={avatar} alt="avatar" />
               <span>

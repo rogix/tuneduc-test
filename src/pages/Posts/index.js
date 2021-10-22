@@ -24,7 +24,7 @@ export default function Posts({ match }) {
     <Container>
       <h1>Posts</h1>
       <ul>
-        {posts.map(post => (
+        {posts.map((post) => (
           <li key={post.id}>
             {post.title}
             <span>
